@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ludy-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/ludy/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=ludy
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
