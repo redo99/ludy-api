@@ -1,0 +1,24 @@
+{
+  "ludyApp": {
+    "ludyUser": {
+      "home": {
+        "title": "Ludy Users",
+        "createLabel": "Create a new Ludy User",
+        "createOrEditLabel": "Create or edit a Ludy User",
+        "notFound": "No Ludy Users found"
+      },
+      "created": "A new Ludy User is created with identifier {{ param }}",
+      "updated": "A Ludy User is updated with identifier {{ param }}",
+      "deleted": "A Ludy User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ludy User {{ id }}?"
+      },
+      "detail": {
+        "title": "Ludy User"
+      },
+      "score": "Score",
+      "gems": "Gems",
+      "user": "User"
+    }
+  }
+}
